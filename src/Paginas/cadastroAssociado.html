@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Associados</title>
+</head>
+<body>
+
+    <h1>Cadastre um Associado na base</h1>
+
+    <form action="" method="post" id="cadastroAssociado">
+        <label for="name">Nome completo</label>
+        <input type="text" id="name" name="name" placeholder="Digite o nome completo do associado">
+
+        <label for="tel">Telefone</label>
+        <input type="number" id="tel" name="tel">
+
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" placeholder="Digite seu email">
+
+        <label for="cpf">CPF</label>
+        <input type="number" id="cpf" name="cpf" placeholder="Digite o seu CPF">
+
+        <h4>Sexo</h4>
+        <input type="radio" name="sexo" id="sexo" value="Feminino">
+        <label for="sexo">Feminino</label>
+        <input type="radio" name="sexo" id="sexo" value="Masculino">
+        <label for="sexo">Masculino</label>
+
+        <label for="rg">RG</label>
+        <input type="number" id="rg" name="rg" placeholder="Digite seu rg">
+
+        <label for="dateBorn">Data de Nascimento</label>
+        <input type="date" id="dateBorn" name="dateBorn">
+
+        <label for="address">Endereço</label>
+        <input type="text" id="address" name="address" placeholder="Digite seu endereço">
+
+        <label for="neighborhood">Bairro</label>
+        <input type="text" id="neighborhood" name="neighborhood" placeholder="Digite seu bairro">
+
+        <label for="number">Número</label>
+        <input type="number" id="number" name="number">
+
+        <label for="uf">UF</label>
+        <input type="text" id="uf" name="uf" placeholder="Digite seu estado">
+
+        <label for="cep">CEP</label>
+        <input type="number" id="cep" name="cep" placeholder="Digite seu cep">
+        
+        <label for="cnh">CNH</label>
+        <input type="number" id="cnh" name="cnh" placeholder="Digite sua cnh">
+
+        <label for="validade">Validade da CNH</label>
+        <input type="date" id="validade" name="validade">
+
+        <label for="category">Categoria</label>
+        <input type="text" id="category" name="category" placeholder="Digite a categoria da sua cnh">
+
+        <label for="firstLicense">1° Habilitação</label>
+        <input type="date" id="firstLicense" name="firstLicense">
+
+        <label for="nationality">Nacionalidade</label>
+        <input type="text" id="nationality" name="nationality" placeholder="Digite sua nacionalidade">
+
+        <h2>Dados do veículo</h2>
+
+        <label for="photos">Adicione as fotos do veículo</label>
+        <input type="file" name="photos" id="photos" multiple>
+
+        <label for="brand">Marca</label>
+        <input type="text" id="brand" name="brand" placeholder="Digite a marca do veículo">
+
+        <label for="version">Versão</label>
+        <input type="text" id="version" name="version" placeholder="Digite a versão do veículo">
+
+        <label for="fuel">Combustível</label>
+        <input type="text" id="fuel" name="fuel" placeholder="Digite o tipo de combustível">
+
+        <label for="nf">NF</label>
+        <input type="text" id="nf" name="nf" placeholder="Digite a nota fiscal do veículo">
+
+        <label for="plate">Placa</label>
+        <input type="text" id="plate" name="plate" placeholder="Digite o número da placa do veículo">
+
+        <label for="year">Ano</label>
+        <input type="number" id="year" name="year" placeholder="Digite o ano do veículo">
+
+        <label for="model">Modelo</label>
+        <input type="text" id="model" name="model" placeholder="Digite o modelo do veículo">
+
+        <label for="numberDoors">Número de portas</label>
+        <input type="number" id="numberDoors" name="numberDoors" placeholder="Digite o número de portas do veículo">
+
+        <label for="color">Cor</label>
+        <input type="text" id="color" name="color" placeholder="Digite a cor do veículo">
+
+        <label for="renavam">Renavam</label>
+        <input type="number" id="renavam" name="renavam" placeholder="Digite o número do Renavam">
+
+        <label for="chassi">Chassi</label>
+        <input type="text" id="chassi" name="chassi" placeholder="Digite o chassi do veículo">
+
+        <label for="fipeCode">Código Fipe</label>
+        <input type="number" id="fipeCode" name="fipeCode" placeholder="Digite o código Fipe">
+
+        <label for="fipeValue">Valor do Fipe</label>
+        <input type="number" id="fipeValue" name="fipeValue" placeholder="Digite o valor do fipe">
+
+        <label for="vehicleNationality">Nacionalidade do veículo</label>
+        <input type="text" id="vehicleNationality" name="vehicleNationality" placeholder="Digite a nacionalidade do veículo">
+
+
+        <button type="submit">Cadastrar</button>
+    </form>
+
+    <script src="../Dados/Dados.js"></script>
+</body>
+</html>
